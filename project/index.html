@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+  <header>
+    <h1>Project Management Tool</h1>
+  </header>
+
+  <main>
+    <section id="task-section">
+      <h2>Tasks</h2>
+      <ul id="task-list">
+        <!-- Dynamically generated task list items will be added here -->
+      </ul>
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Enter task description">
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <section id="communication-section">
+      <h2>Communication</h2>
+      <ul id="message-list">
+        <!-- Dynamically generated messages will be added here -->
+      </ul>
+      <form id="message-form">
+        <input type="text" id="message-input" placeholder="Enter message">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="project.js"></script>
+</body>
+</html>
